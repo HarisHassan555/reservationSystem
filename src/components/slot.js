@@ -49,7 +49,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("11:45 AM - 1:00 PM")}
+                onClick={() => handleSlotSelect("11:15 AM - 12:30 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 11:15 AM - 12:30 PM
@@ -58,7 +58,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("1:00 PM - 2:15 PM")}
+                onClick={() => handleSlotSelect("12:45 PM - 2:00 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 12:45 PM - 2:00 PM
@@ -76,7 +76,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("3:30 PM - 4:45 PM")}
+                onClick={() => handleSlotSelect("3:45 PM - 5:00 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 3:45 PM - 5:00 PM
@@ -85,7 +85,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("4:45 PM - 6:00 PM")}
+                onClick={() => handleSlotSelect("5:15 PM - 6:30 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 5:15 PM - 6:30 PM
@@ -94,7 +94,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("6:00 PM - 7:15 PM")}
+                onClick={() => handleSlotSelect("6:45 PM - 8:00 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 6:45 PM - 8:00 PM
@@ -103,7 +103,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("7:15 PM - 8:30 PM")}
+                onClick={() => handleSlotSelect("8:15 PM - 9:30 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 8:15 PM - 9:30 PM
@@ -112,7 +112,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("8:30 PM - 9:45 PM")}
+                onClick={() => handleSlotSelect("9:45 PM - 11:00 PM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 9:45 PM - 11:00 PM
@@ -121,7 +121,7 @@ function Slot() {
             <li>
               <a
                 href="#"
-                onClick={() => handleSlotSelect("9:45 PM - 11:00 PM")}
+                onClick={() => handleSlotSelect("11:15 PM - 12:30 AM")}
                 className="block px-4 py-2 hover:bg-gray-100"
               >
                 11:15 PM - 12:30 AM
