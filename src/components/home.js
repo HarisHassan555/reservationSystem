@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col gap-y-5 sm:justify-between sm:flex-row py-[2rem]  ">
+      <div className="flex flex-col gap-y-5 sm:justify-between sm:flex-row py-[2rem] px-[4rem] ">
         <div className="flex flex-col gap-y-5 sm:flex-row sm:gap-x-3 items-center">
           <Calender />
           <Slot />

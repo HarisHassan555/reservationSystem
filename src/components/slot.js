@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { setSlot } from '../features/appSlice'; // Adjust path as needed
+import { setSlot } from '../features/appSlice';
 
 function Slot() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedSlot, setSelectedSlot] = useState("");
   
-  const dispatch = useDispatch(); // Initialize useDispatch hook
+  const dispatch = useDispatch();
   const dropdownRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -17,7 +17,7 @@ function Slot() {
   const handleSlotSelect = (slot) => {
     setSelectedSlot(slot);
     setIsOpen(false);
-    dispatch(setSlot(slot)); // Dispatch the selected slot to the Redux store
+    dispatch(setSlot(slot));
   };
 
   const handleClickOutside = (event) => {
@@ -34,7 +34,7 @@ function Slot() {
   }, [isOpen]);
 
   return (
-    <div className="relative inline-flex w-[50vh] sm:w-[10rem] ">
+    <div className="relative inline-flex w-[12rem] sm:w-[10rem] ">
       <input
         type="text"
         readOnly

@@ -15,12 +15,12 @@ function Calender() {
   const today = new Date();
 
   return (
-    <div className="w-[50vh] self-center sm:w-[8rem]">
+    <div className="w-[12rem] self-center sm:w-[8rem]">
       <DatePicker
         selected={startDate}
         onChange={(date) => setStartDate(date)}
         minDate={today}
-        className="w-[50vh] text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block sm:w-[8rem] p-2.5"
+        className="w-[12rem] text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block sm:w-[8rem] p-2.5"
         placeholderText="Select a date"
       />
     </div>
