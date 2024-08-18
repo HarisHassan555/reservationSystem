@@ -41,7 +41,7 @@ function Slot() {
         value={selectedSlot || "Select a time slot"}
         onClick={toggleDropdown}
         ref={inputRef}
-        className={`w-[50vh] sm:w-[10rem] bg-gray-50 border border-gray-300 text-center text-sm rounded-lg block p-2.5 cursor-pointer ${selectedSlot ? 'text-gray-900' : 'text-gray-400'}`}
+        className={`w-[12rem] sm:w-[10rem] bg-gray-50 border border-gray-300 text-center text-sm rounded-lg block p-2.5 cursor-pointer ${selectedSlot ? 'text-gray-900' : 'text-gray-400'}`}
       />
       {isOpen && (
         <div
