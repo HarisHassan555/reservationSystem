@@ -115,7 +115,7 @@ export default function Table() {
       <button
         type="button"
         onClick={handleOpenPopup}
-        className="w-[50vh] self-center px-4 py-2 my-[2rem] bg-blue-500 text-white rounded transition-transform transform hover:scale-105 hover:bg-blue-600"
+        className="w-[14rem] self-center px-4 py-2 my-[2rem] bg-blue-500 text-white rounded transition-transform transform hover:scale-105 hover:bg-blue-600"
       >
         Select
       </button>

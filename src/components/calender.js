@@ -20,7 +20,7 @@ function Calender() {
         selected={startDate}
         onChange={(date) => setStartDate(date)}
         minDate={today}
-        className="w-[12rem] text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block sm:w-[8rem] p-2.5"
+        className="w-[12rem] text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block sm:w-[10rem] p-2.5"
         placeholderText="Select a date"
       />
     </div>
