@@ -15,7 +15,7 @@ function Calender() {
   const today = new Date();
 
   return (
-    <div className="w-[12rem] self-center sm:w-[8rem]">
+    <div className="w-[12rem] self-center sm:w-[10rem]">
       <DatePicker
         selected={startDate}
         onChange={(date) => setStartDate(date)}
